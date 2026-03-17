@@ -1,0 +1,25 @@
+name: Baremetal_milk-v_duo
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+
+jobs:
+  build-riscv32-esp-elf:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Toolchain
+        run: |
+          wget -q https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1770907856731/Xuantie-900-gcc-elf-newlib-i386-V3.3.0-20260204.tar.gz
+          tar -xf Xuantie-900-gcc-elf-newlib-i386-V3.3.0-20260204.tar.gz
+
+      - name: Build Binary
+        run: |
+          export TOOLCHAIN_GCC_T_HEAD=$GITHUB_WORKSPACE/Xuantie-900-gcc-elf-newlib-i386-V3.3.0/bin/riscv64-unknown-elf
+          export PATH=$TOOLCHAIN_GCC_T_HEAD:$PATH
+          cd $GITHUB_WORKSPACE/Build
+          chmod +x Rebuild.sh
+          ./Rebuild.sh
