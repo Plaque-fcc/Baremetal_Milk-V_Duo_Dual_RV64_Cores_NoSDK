@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  build-riscv32-esp-elf:
+  build:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
