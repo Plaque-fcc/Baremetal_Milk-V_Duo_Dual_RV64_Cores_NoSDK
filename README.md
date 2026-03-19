@@ -86,8 +86,8 @@ The following tools are needed to build and debug this project:
 
 | Tool                          | Link                                                         |
 | ----------------------------- | ------------------------------------------------------------ |
-| XuanTie-compiler (Windows)    | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1695015955142/Xuantie-900-gcc-elf-newlib-mingw-V2.6.1-20220906.tar.gz |
-| XuanTie-compiler (Linux)      | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1695016121707/Xuantie-900-gcc-elf-newlib-i386-V2.6.1-20220906.tar.gz |
+| XuanTie-compiler (Windows)    | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1770908223085/Xuantie-900-gcc-elf-newlib-mingw-V3.3.0-20260204.tar.gz |
+| XuanTie-compiler (Linux)      | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1770907856731/Xuantie-900-gcc-elf-newlib-i386-V3.3.0-20260204.tar.gz |
 | XuanTie-DebugServer (Windows) | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1749727559795/XuanTie-DebugServer-windows-V5.18.5-20250612-1519.zip |
 | XuanTie-DebugServer (Linux)   | https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1749727598705/XuanTie-DebugServer-linux-i386-V5.18.5-20250612.sh.tar.gz |
 

@@ -58,7 +58,7 @@ OBJCOPY = $(TOOLCHAIN)-objcopy
 SIZE    = $(TOOLCHAIN)-size
 READELF = $(TOOLCHAIN)-readelf
 
-ARCH = -march=rv64imafdcvxthead  \
+ARCH = -mcpu=c906fd              \
        -mabi=lp64f               \
        -mcmodel=medany           \
        -msmall-data-limit=0      \
